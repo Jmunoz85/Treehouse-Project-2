@@ -84,3 +84,59 @@
     </footer>
   </body>
 </html>
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.portfolio-items li img {
+  max-width: 100%;
+}
+.portfolio-items {
+  list-style: none;
+  text-align: center;
+  background-color:white;
+}
+.footer-nav li {
+  display: inline-block;
+  margin-right: 40px;
+  text-decoration: overline;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    color: red;
+
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+p {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .portfolio-items {
+    width: 33%;
+    display: inline-block;
+  }
+}
+@media (min-width: 1024px) {
+
+}
